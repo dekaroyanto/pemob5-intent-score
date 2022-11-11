@@ -84,7 +84,7 @@ public class MatchActivity extends AppCompatActivity {
     }
 
     public void handleHome4(View view){
-        scoreHome = scoreHome - 1;
+        scoreHome = 0;
         homeScore.setText(String.valueOf(scoreHome));
     }
 
@@ -104,7 +104,7 @@ public class MatchActivity extends AppCompatActivity {
     }
 
     public void handleAway4(View view){
-        scoreAway = scoreAway - 1;
+        scoreAway = 0;
         awayScore.setText(String.valueOf(scoreAway));
     }
 
